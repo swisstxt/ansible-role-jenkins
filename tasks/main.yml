@@ -121,3 +121,8 @@
   tags:
   - packages
   - jenkins-plugins
+
+- name: template log parsing rules
+  template:
+    src: ansible-log-parser-rules.txt.j2
+    dest: /var/lib/jenkins/ansible-log-parser-rules.txt
